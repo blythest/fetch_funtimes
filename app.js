@@ -24,4 +24,4 @@ function runPolling(generator) {
   });
 }
 
-runPolling();
+window.setInterval(function() { return runPolling()}, 5000);
